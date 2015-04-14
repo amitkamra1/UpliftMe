@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2883797C1ADC01DF0021535F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2883797B1ADC01DF0021535F /* AppDelegate.swift */; };
+		2883797E1ADC01DF0021535F /* QuoteMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2883797D1ADC01DF0021535F /* QuoteMasterViewController.swift */; };
+		288379811ADC01DF0021535F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2883797F1ADC01DF0021535F /* Main.storyboard */; };
+		288379831ADC01DF0021535F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288379821ADC01DF0021535F /* Images.xcassets */; };
+		288379861ADC01DF0021535F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 288379841ADC01DF0021535F /* LaunchScreen.xib */; };
+		288379921ADC01DF0021535F /* FeelingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288379911ADC01DF0021535F /* FeelingsTests.swift */; };
+		288379A01ADC07010021535F /* QuoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2883799F1ADC07010021535F /* QuoteDetailViewController.swift */; };
+		288379A21ADC08E10021535F /* QuotesLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288379A11ADC08E10021535F /* QuotesLibrary.swift */; };
+		28ED50381ADC6D75001CCAAA /* Feeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ED50371ADC6D75001CCAAA /* Feeling.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2883798C1ADC01DF0021535F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2883796E1ADC01DE0021535F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 288379751ADC01DF0021535F;
+			remoteInfo = Feelings;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		288379761ADC01DF0021535F /* Feelings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feelings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2883797A1ADC01DF0021535F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2883797B1ADC01DF0021535F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2883797D1ADC01DF0021535F /* QuoteMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteMasterViewController.swift; sourceTree = "<group>"; };
+		288379801ADC01DF0021535F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		288379821ADC01DF0021535F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		288379851ADC01DF0021535F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2883798B1ADC01DF0021535F /* FeelingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeelingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		288379901ADC01DF0021535F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288379911ADC01DF0021535F /* FeelingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingsTests.swift; sourceTree = "<group>"; };
+		2883799F1ADC07010021535F /* QuoteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuoteDetailViewController.swift; path = ../QuoteDetailViewController.swift; sourceTree = "<group>"; };
+		288379A11ADC08E10021535F /* QuotesLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesLibrary.swift; sourceTree = "<group>"; };
+		28ED50371ADC6D75001CCAAA /* Feeling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feeling.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		288379731ADC01DF0021535F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288379881ADC01DF0021535F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2883796D1ADC01DE0021535F = {
+			isa = PBXGroup;
+			children = (
+				288379781ADC01DF0021535F /* Feelings */,
+				2883798E1ADC01DF0021535F /* FeelingsTests */,
+				288379771ADC01DF0021535F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		288379771ADC01DF0021535F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				288379761ADC01DF0021535F /* Feelings.app */,
+				2883798B1ADC01DF0021535F /* FeelingsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		288379781ADC01DF0021535F /* Feelings */ = {
+			isa = PBXGroup;
+			children = (
+				2883797B1ADC01DF0021535F /* AppDelegate.swift */,
+				2883797D1ADC01DF0021535F /* QuoteMasterViewController.swift */,
+				2883799F1ADC07010021535F /* QuoteDetailViewController.swift */,
+				288379A11ADC08E10021535F /* QuotesLibrary.swift */,
+				28ED50371ADC6D75001CCAAA /* Feeling.swift */,
+				2883797F1ADC01DF0021535F /* Main.storyboard */,
+				288379821ADC01DF0021535F /* Images.xcassets */,
+				288379841ADC01DF0021535F /* LaunchScreen.xib */,
+				288379791ADC01DF0021535F /* Supporting Files */,
+			);
+			path = Feelings;
+			sourceTree = "<group>";
+		};
+		288379791ADC01DF0021535F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2883797A1ADC01DF0021535F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2883798E1ADC01DF0021535F /* FeelingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				288379911ADC01DF0021535F /* FeelingsTests.swift */,
+				2883798F1ADC01DF0021535F /* Supporting Files */,
+			);
+			path = FeelingsTests;
+			sourceTree = "<group>";
+		};
+		2883798F1ADC01DF0021535F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				288379901ADC01DF0021535F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		288379751ADC01DF0021535F /* Feelings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288379951ADC01DF0021535F /* Build configuration list for PBXNativeTarget "Feelings" */;
+			buildPhases = (
+				288379721ADC01DF0021535F /* Sources */,
+				288379731ADC01DF0021535F /* Frameworks */,
+				288379741ADC01DF0021535F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Feelings;
+			productName = Feelings;
+			productReference = 288379761ADC01DF0021535F /* Feelings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2883798A1ADC01DF0021535F /* FeelingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288379981ADC01DF0021535F /* Build configuration list for PBXNativeTarget "FeelingsTests" */;
+			buildPhases = (
+				288379871ADC01DF0021535F /* Sources */,
+				288379881ADC01DF0021535F /* Frameworks */,
+				288379891ADC01DF0021535F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2883798D1ADC01DF0021535F /* PBXTargetDependency */,
+			);
+			name = FeelingsTests;
+			productName = FeelingsTests;
+			productReference = 2883798B1ADC01DF0021535F /* FeelingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2883796E1ADC01DE0021535F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = AkMindfulLabs;
+				TargetAttributes = {
+					288379751ADC01DF0021535F = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					2883798A1ADC01DF0021535F = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 288379751ADC01DF0021535F;
+					};
+				};
+			};
+			buildConfigurationList = 288379711ADC01DF0021535F /* Build configuration list for PBXProject "Feelings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2883796D1ADC01DE0021535F;
+			productRefGroup = 288379771ADC01DF0021535F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				288379751ADC01DF0021535F /* Feelings */,
+				2883798A1ADC01DF0021535F /* FeelingsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		288379741ADC01DF0021535F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288379811ADC01DF0021535F /* Main.storyboard in Resources */,
+				288379861ADC01DF0021535F /* LaunchScreen.xib in Resources */,
+				288379831ADC01DF0021535F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288379891ADC01DF0021535F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		288379721ADC01DF0021535F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288379A21ADC08E10021535F /* QuotesLibrary.swift in Sources */,
+				28ED50381ADC6D75001CCAAA /* Feeling.swift in Sources */,
+				288379A01ADC07010021535F /* QuoteDetailViewController.swift in Sources */,
+				2883797E1ADC01DF0021535F /* QuoteMasterViewController.swift in Sources */,
+				2883797C1ADC01DF0021535F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288379871ADC01DF0021535F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288379921ADC01DF0021535F /* FeelingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2883798D1ADC01DF0021535F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 288379751ADC01DF0021535F /* Feelings */;
+			targetProxy = 2883798C1ADC01DF0021535F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2883797F1ADC01DF0021535F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				288379801ADC01DF0021535F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		288379841ADC01DF0021535F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				288379851ADC01DF0021535F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		288379931ADC01DF0021535F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		288379941ADC01DF0021535F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		288379961ADC01DF0021535F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Feelings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		288379971ADC01DF0021535F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Feelings/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		288379991ADC01DF0021535F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FeelingsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Feelings.app/Feelings";
+			};
+			name = Debug;
+		};
+		2883799A1ADC01DF0021535F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FeelingsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Feelings.app/Feelings";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		288379711ADC01DF0021535F /* Build configuration list for PBXProject "Feelings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288379931ADC01DF0021535F /* Debug */,
+				288379941ADC01DF0021535F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		288379951ADC01DF0021535F /* Build configuration list for PBXNativeTarget "Feelings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288379961ADC01DF0021535F /* Debug */,
+				288379971ADC01DF0021535F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		288379981ADC01DF0021535F /* Build configuration list for PBXNativeTarget "FeelingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288379991ADC01DF0021535F /* Debug */,
+				2883799A1ADC01DF0021535F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2883796E1ADC01DE0021535F /* Project object */;
+}
